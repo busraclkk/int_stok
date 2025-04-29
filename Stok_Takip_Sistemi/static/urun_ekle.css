@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, #f0f2f5, #e2e6ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-product-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.add-product-container h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #343a40;
+}
+
+.add-product-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-product-container input {
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.add-product-container input:focus {
+    border-color: #0d6efd;
+    outline: none;
+}
+
+.add-product-container button {
+    padding: 12px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-container button:hover {
+    background-color: #0b5ed7;
+}

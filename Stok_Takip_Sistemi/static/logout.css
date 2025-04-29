@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logout-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.logout-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.logout-container p {
+    color: #555;
+}
+
+.logout-container a {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.logout-container a:hover {
+    background-color: #0b5ed7;
+}
