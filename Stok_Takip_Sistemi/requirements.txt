@@ -1,0 +1,4 @@
+Flask==3.1.0
+Flask-login==0.6.3
+Flask-SQLALchemy==3.1.1
+WerkZeug==3.0.1
